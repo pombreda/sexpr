@@ -9,7 +9,7 @@ Convert S-expressions to string representation
     '(() ("a b))'
 
 
-Pattern match against unstructured data types
+Pattern match against sequential data types
     >>> unstructured = ["Data",1,2,3]
     >>> try: a,b,c = Sexpr.unpack(unstructured,"Data")
     ... except IndexError: pass
