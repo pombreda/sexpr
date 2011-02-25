@@ -1,5 +1,0 @@
->>> import Sexpr
->>> Sexpr.loads('()("a b)')
-[[], ['"a', 'b']]
->>> 
-
